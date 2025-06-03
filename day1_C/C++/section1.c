@@ -36,3 +36,39 @@ int main() {
     return 0;
 }
 */
+
+/* Question 3
+
+#include <stdio.h>
+int main() {
+    int a , b, c ;
+    printf("Enter First No.: ");
+    scanf("%d",&a);
+    printf("Enter Second No.: ");
+    scanf("%d",&b);
+    printf("Enter Third No.: ");
+    scanf("%d",&c);
+    
+    if (a > b ) {
+        if ( a > c) {
+            printf("%d is the Largest of all 3", a);
+        }
+        
+        else {
+            printf ("%d is the Largest of all 3", c);
+        }
+    }
+    
+    else {
+        if (b > c) {
+            printf("%d is the Largest of all 3", b);
+        }
+        
+        else {
+            printf("%d is the Largest of all 3", c);
+        }
+    }
+    
+    return 0;
+}
+*/
