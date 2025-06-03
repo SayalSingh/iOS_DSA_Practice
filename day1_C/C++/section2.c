@@ -46,3 +46,28 @@ int main() {
 }
 
 */
+
+/* Question 3
+
+int main() {
+    int a, b;
+    
+    printf("Enter the first no.: ");
+    scanf("%d", &a);
+    printf("Enter the second no.: ");
+    scanf("%d", &b);
+    printf("\n");
+    
+    int *c = &a;
+    int *d = &b; 
+
+    printf("Old no are a: %d, b: %d \n", a , b);
+    
+    int temp = *c;
+    *c = *d;
+    *d = temp;
+    
+    printf("New no are a: %d, b: %d", a , b );
+    return 0;
+}
+*/
