@@ -72,3 +72,20 @@ int main() {
     return 0;
 }
 */
+
+/* Question 4
+#include <stdio.h>
+
+int main() {
+    int a, b, i ;
+    printf("Enter No. for which table required : ");
+    scanf("%d",&a);
+    
+    for (i = 1; i < 11; i++) {
+        b = a * i;
+        printf ("%d * %d = %d \n", a , i , b) ;
+    }
+    
+    return 0;
+}
+*/
