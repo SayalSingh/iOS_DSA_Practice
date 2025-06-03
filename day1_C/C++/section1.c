@@ -111,7 +111,7 @@ int main() {
 
 */
 
-/* Question 6
+/* Question 7
 
 #include <stdio.h>
 
@@ -154,4 +154,40 @@ int main() {
     return 0;
 }
     
+*/
+
+/* Question 9
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter the year to check: ");
+    scanf("%d",&a);
+    
+    if (a % 4 == 0) {
+        printf("Year %d is a leap year", a);
+    }
+    
+    else {
+        printf("Year %d is not a leap year", a);
+    }
+    return 0;
+}
+*/
+
+/* Question 10 (This is a simple C++ program )
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Enter the no. : ";
+    cin >> a;
+    cout << "The no. is : "<< a << endl;
+   
+
+    return 0;
+}
 */
