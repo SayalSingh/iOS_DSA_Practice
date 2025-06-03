@@ -89,3 +89,24 @@ int main() {
     return 0;
 }
 */
+
+/* Question 5
+
+#include <stdio.h>
+
+int main() {
+    int a, sum = 0, i = 1 ;
+    printf("Enter no. till you want : ");
+    scanf ("%d", &a);
+    
+    while (i <= a) {
+        if (i % 2 != 0) {
+            sum += i;
+        }
+        i++;
+    }
+    printf("%d is sum from 1 to %d", sum, a );
+    return 0;
+}
+    
+*/
