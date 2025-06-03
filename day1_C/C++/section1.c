@@ -108,5 +108,50 @@ int main() {
     printf("%d is sum from 1 to %d", sum, a );
     return 0;
 }
+
+*/
+
+/* Question 6
+
+#include <stdio.h>
+
+
+int main() {
+    int a, b , result;
+    char opr;
+    printf("Enter First No.: ");
+    scanf ("%d", &a);
+    printf("Enter Second No.: ");
+    scanf("%d", &b);
+    printf("Enter Operator (+ / * / - / ) :   ");
+    scanf(" %c", &opr);
+    
+    switch (opr) {
+        case '+' :
+            result = a + b;
+            break ;
+        
+        case '-' :
+            result = a - b;
+            break ;
+        
+        case '*' :
+            result = a * b;
+            break ;
+        
+        case '/' :
+            result = a / b;
+            break ;
+            
+        default :
+            printf("Invlaid Operator");
+            break;
+    }
+    
+    printf("%d %c %d = %d", a,opr,b,result);
+    
+  
+    return 0;
+}
     
 */
