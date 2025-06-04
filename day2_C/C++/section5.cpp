@@ -16,4 +16,16 @@ int main() {
 */
 
 /* Question 2
+int main() {
+    string str1;
+    cout << "Enter a String : ";
+    cin >> str1;
+    
+    cout << "Given String is : "<< str1 << endl;
+}
+*/
+
+
+/* Question 3
+
 */
