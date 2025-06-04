@@ -15,3 +15,33 @@ int main() {
 }
 
 */
+
+/* Question 2
+
+int main() {
+   int n;
+   printf("Enter no. of elements in array : ");
+   scanf("%d",&n);
+   
+   int a[n], i;
+   printf("Enter elements for the array: ");
+   for (i = 1; i <= n; i++){
+       scanf("%d", &a[i]);
+   }
+    printf("Your array is ");
+   for (i = 1; i <= n; i++) {
+     printf("%d ", a[i]);
+   }
+   
+   int sum = 0;
+   printf("\n");
+  for (i = 1; i <= n; i++) {
+      sum += a[i];
+  }
+  
+  printf("The sum of the array is %d", sum);
+   
+   return 0;
+   
+}
+*/
