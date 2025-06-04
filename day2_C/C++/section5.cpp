@@ -27,5 +27,22 @@ int main() {
 
 
 /* Question 3
+int main() {
+    int i = 0;
+    int a;
+    vector<int> vec;
+    for (i = 0; i < 5; i++){
+    cout << "Enter integer " ;
+    cin >> a;
+    
+    vec.push_back(a);
+    } 
+   
 
+    for (i = 0; i < vec.size(); i++) {
+        cout << vec[i] << " ";
+    }
+    
+    return 0;
+}
 */
