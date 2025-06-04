@@ -135,6 +135,30 @@ int main() {
 }
 */
 
-/* Question 5
+/* Question 6
+#include <string.h>
+
+int main() {
+    int length = 0;
+    int i;
+    char str[100], temp;
+    
+    printf("Enter the string to be reversed : ");
+    scanf("%s", &str);
+    length = strlen(str);
+    printf("Length of string : %d\n",length);
+    printf("String to be reversed : %s \n", str);
+    
+    for (i = 0; i < length / 2; i++) {
+        temp = str[i];
+        str[i] = str[length - 1 - i];
+        str[length - 1 - i] = temp;
+    }
+    
+    printf("Reversed string is : %s", str);
+    
+   return 0;
+   
+}
 
 */
