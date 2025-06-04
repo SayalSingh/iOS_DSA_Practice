@@ -108,17 +108,20 @@ int main() {
 /*  Question 4
 
 int main() {
+    int a,i=0;
+    printf("Kindly enter size of string : ");
+    scanf("%d", &a);
+    char str1[a],str2[a];
     
-    char str1[100], str2[100];
-    int i = 0;
+        printf("Enter string 1 :");
+        scanf("%s", &str1);
+        
+        printf("Enter string 2 :");
+        scanf("%s", &str2);
 
-    // Input strings
-    printf("Enter first string: ");
-    scanf("%s", str1);
-    printf("Enter second string: ");
-    scanf("%s", str2);
-
-    while (str1[i] == str2[i]) {
+    printf("The strings are %s & %s \n ", str1,str2);
+    
+   while (str1[i] == str2[i]) {
         if (str1[i] == '\0') { 
             printf("Strings are equal\n");
             return 0;
@@ -127,7 +130,6 @@ int main() {
     }
 
     printf("Strings are not equal\n");
-
    return 0;
    
 }
