@@ -74,17 +74,16 @@ int main() {
 
 */
 
-
 /* Question 3
-#include <string.h>
+
 
 int main() {
     
     char str1[100], str2[100], result[100];
     printf("Enter String 1 : ");
-    scanf(" %c", &str1);
+    scanf(" %s", &str1);
     printf("Enter String 2 : ");
-    scanf(" %c", &str2);
+    scanf(" %s", &str2);
 
 
     int i, j;
@@ -104,4 +103,36 @@ int main() {
    return 0;
    
 }
+*/
+
+/*  Question 4
+
+int main() {
+    
+    char str1[100], str2[100];
+    int i = 0;
+
+    // Input strings
+    printf("Enter first string: ");
+    scanf("%s", str1);
+    printf("Enter second string: ");
+    scanf("%s", str2);
+
+    while (str1[i] == str2[i]) {
+        if (str1[i] == '\0') { 
+            printf("Strings are equal\n");
+            return 0;
+        }
+        i++;
+    }
+
+    printf("Strings are not equal\n");
+
+   return 0;
+   
+}
+*/
+
+/* Question 5
+
 */
